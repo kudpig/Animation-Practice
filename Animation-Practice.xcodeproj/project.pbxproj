@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F2A29422614715400207E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A29412614715400207E71 /* AppDelegate.swift */; };
-		8F2A29442614715400207E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A29432614715400207E71 /* SceneDelegate.swift */; };
 		8F2A29462614715400207E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A29452614715400207E71 /* ViewController.swift */; };
 		8F2A29492614715400207E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A29472614715400207E71 /* Main.storyboard */; };
 		8F2A294B2614715500207E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A294A2614715500207E71 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		8F2A293E2614715400207E71 /* Animation-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2A29412614715400207E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F2A29432614715400207E71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8F2A29452614715400207E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F2A29482614715400207E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F2A294A2614715500207E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				8F2A29412614715400207E71 /* AppDelegate.swift */,
-				8F2A29432614715400207E71 /* SceneDelegate.swift */,
 				8F2A29452614715400207E71 /* ViewController.swift */,
 				8F2A29472614715400207E71 /* Main.storyboard */,
 				8F2A294A2614715500207E71 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				8F2A29462614715400207E71 /* ViewController.swift in Sources */,
 				8F2A29422614715400207E71 /* AppDelegate.swift in Sources */,
-				8F2A29442614715400207E71 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +284,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Animation-Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Animation-Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
